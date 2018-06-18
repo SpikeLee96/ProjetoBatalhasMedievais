@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DY9-oO-jca">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MarkerFeltThin.ttf">
+            <string>MarkerFelt-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Batalhas_Medievais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top-10-Magic-Books-of-All-Time" translatesAutoresizingMaskIntoConstraints="NO" id="dlA-bk-uJY">
+                                <rect key="frame" x="16" y="125" width="343" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Batalhas Medievais" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1m5-Eu-f4P">
+                                <rect key="frame" x="39" y="43" width="297" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="0.99127257030000004" green="1" blue="0.9552441263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBT-Fl-3xg">
+                                <rect key="frame" x="105" y="460" width="164" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Começar">
+                                    <color key="titleColor" red="1" green="0.05305673734" blue="0.78205071800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6yl-k6-CW3" kind="show" identifier="ViewController" id="4s0-Va-IXA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DeM-pu-ZGP"/>
+                    <connections>
+                        <outlet property="Titulo" destination="1m5-Eu-f4P" id="8pG-ar-uLK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-663.20000000000005" y="53.523238380809602"/>
+        </scene>
+        <!--Temas-->
+        <scene sceneID="Xpb-RC-5pk">
+            <objects>
+                <viewController id="scb-Jd-dgz" customClass="TemaViewController" customModule="Batalhas_Medievais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="asW-ER-eP6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecione um tema" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F09-oL-P4z">
+                                <rect key="frame" x="72" y="97" width="230" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="26"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.01164490638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fv-S5-bL4">
+                                <rect key="frame" x="164" y="405" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Luz">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Luz:" destination="scb-Jd-dgz" eventType="touchUpInside" id="uBN-qI-Bn6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8U-Ok-Pts">
+                                <rect key="frame" x="135" y="454" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Equilíbrio">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Equilibrio:" destination="scb-Jd-dgz" eventType="touchUpInside" id="51p-Lp-pql"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9D6-Al-UXi">
+                                <rect key="frame" x="153" y="511" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Nebulosa">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Nebulosa:" destination="scb-Jd-dgz" eventType="touchUpInside" id="BuL-3Q-CCq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Escolher-o-caminho" translatesAutoresizingMaskIntoConstraints="NO" id="3KL-Ug-WHC">
+                                <rect key="frame" x="67" y="164" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYI-3v-8He">
+                                <rect key="frame" x="150" y="560" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Padrão">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Padrao:" destination="scb-Jd-dgz" eventType="touchUpInside" id="0pd-tx-6bZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAj-Ha-BBW">
+                                <rect key="frame" x="164" y="355" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Trevas">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Trevas:" destination="scb-Jd-dgz" eventType="touchUpInside" id="V2i-Qd-Fxq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dL8-rl-I0M"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Temas" id="Xfb-I0-mQu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmZ-lb-ZMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="893.70314842578716"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qze-1t-qMC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DY9-oO-jca" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GuR-AT-1oS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PMT-Sa-ND8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgl-09-Myn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="-732"/>
+        </scene>
+        <!--Manual-->
+        <scene sceneID="5E7-WG-pjc">
+            <objects>
+                <viewController id="oGS-Ta-iTK" customClass="ManualViewController" customModule="Batalhas_Medievais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AhI-ul-dxs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView verifyAmbiguity="off" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xFX-gW-Src">
+                                <rect key="frame" x="0.0" y="64" width="375" height="1687"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAGIAS ELEMENTARES!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ig3-rg-V1U">
+                                        <rect key="frame" x="8" y="493" width="323" height="19"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.01164490638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INVOCAÇÕES!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psC-LD-GSq">
+                                        <rect key="frame" x="8" y="889" width="323" height="19"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.01164490638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cM-PB-YBi">
+                                        <rect key="frame" x="8" y="522" width="348" height="357"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="348" id="TMM-cO-zKJ"/>
+                                            <constraint firstAttribute="height" constant="357" id="iGG-lL-aC2"/>
+                                        </constraints>
+                                        <string key="text">As magias elementares causam danos aos seguintes oponentes: 
+	Fogo causa dano de 20 de HP no Caçador(flecha), 30 de HP no Padre(flecha) ,Caçador(ataque) , Invocador(flecha) e 40 no Padre(ataque). Nos demais causa apenas 20 de dano no HP.
+	Gelo causa dano de 20 de HP no Caçador(flecha), 30 de HP no Padre(ataque), Invocador(ataque), Caçador(ataque), e 40 no Invocador(flecha). Nos demais causa apenas 20 de dano no HP.
+	Eletricidade causa dano de 10 no Caçador(flecha), 30 de HP no Invocador(ataque), Padre(flecha), 40 no Invocador(flecha) e no Padre(ataque). Nos demais causa apenas 20 de dano no HP.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVN-rM-kwW">
+                                        <rect key="frame" x="8" y="918" width="337" height="308"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="308" id="qju-MD-5o6"/>
+                                            <constraint firstAttribute="width" constant="337" id="tGU-ef-Gxl"/>
+                                        </constraints>
+                                        <string key="text">	As invocações causam danos aos seguintes oponentes: 
+	Dragões causa dano de 30 de HP no Arqueiro e Caçador. Nos demais causa apenas 20 de dano no HP.
+	Reaper (a morte) tira 1 de HP do Mago e do Padre ,e causa morte em quatro turnos neles. Pode ser prevenido pela interferência divina do Padre ,mas a prevenção só funciona por um turno. Nos demais não causa dano.
+	Unicórnios Alados não causam danos a ninguém ,mas recuperam 30 do HP do Invocador e podem ser usados apenas uma vez por partida.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzo-Kt-FX5">
+                                        <rect key="frame" x="8" y="1265" width="337" height="411"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="337" id="cMN-X4-AIW"/>
+                                            <constraint firstAttribute="height" constant="411" id="yJA-A0-GGL"/>
+                                        </constraints>
+                                        <string key="text">	Ataques comuns causam apenas 20 de dano no HP.
+	Existe um código que decide aleatoriamente quem será o primeiro a jogar.
+	O Padre pode curar 30 do seu HP através de orações sagradas, mas os deuses atendem até duas orações sagradas por partida.
+	O Padre pode usar a interferência divina somente duas vezes por partida para tirar 32 de HP do Mago ,22 de HP do Arqueiro ou previnir o Reaper (a morte) por um turno.
+	O Caçador pode usar a segunda chance apenas uma vez por partida ,e serve para encher o HP de ambos os jogadores.
+	O Caçador pode usar o escudo e perder apenas 10 de HP caso sofra um ataque comum.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OBSERVAÇÕES!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEz-SY-TZ6">
+                                        <rect key="frame" x="8" y="1236" width="323" height="19"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.01164490638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Existe cinco classes disponíveis para escolha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJu-6h-8en">
+                                        <rect key="frame" x="8" y="10" width="323" height="20"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.01164490638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ica-UJ-Yvh">
+                                        <rect key="frame" x="8" y="40" width="359" height="443"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="359" id="Kbb-c7-Wjq"/>
+                                            <constraint firstAttribute="height" constant="443" id="eIV-yk-YsU"/>
+                                        </constraints>
+                                        <string key="text">Existem cinco classes disponíveis para escolha. Entre elas são Mago ,Caçador ,Arqueiro ,Invocador e Padre.
+
+A classe Mago tem como ataque principal magia de três elementos (fogo, gelo e eletricidade) ,sua fraqueza é ataque físico.
+A classe Caçador tem como ataque principal o ataque fisico, sua fraqueza são as orações de condenação.
+A classe Arqueiro tem como ataque principal as flechas elementares (fogo, gelo e eletricidade), sua fraqueza são seres invocados.
+A classe Invocador tem como ataque principal a invocação de seres como dragões ,unicórnios alados ou o reaper (a morte), sua fraqueza são flechas elementares.
+A classe Padre tem como ataque principal as orações de condenação ,sua fraqueza são magias elementares.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QEz-SY-TZ6" firstAttribute="top" secondItem="cVN-rM-kwW" secondAttribute="bottom" constant="10" id="4KO-cK-0oy"/>
+                                    <constraint firstAttribute="width" constant="375" id="CoY-AJ-qlU"/>
+                                    <constraint firstItem="psC-LD-GSq" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="D4Q-dO-C9U"/>
+                                    <constraint firstItem="Hzo-Kt-FX5" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="GLJ-Py-MN3"/>
+                                    <constraint firstAttribute="trailing" secondItem="QEz-SY-TZ6" secondAttribute="trailing" constant="8" id="HtK-vZ-Kwd"/>
+                                    <constraint firstItem="psC-LD-GSq" firstAttribute="top" secondItem="4cM-PB-YBi" secondAttribute="bottom" constant="10" id="NZp-AR-Sy1"/>
+                                    <constraint firstItem="cVN-rM-kwW" firstAttribute="top" secondItem="psC-LD-GSq" secondAttribute="bottom" constant="10" id="RkM-KX-jE2"/>
+                                    <constraint firstAttribute="trailing" secondItem="psC-LD-GSq" secondAttribute="trailing" constant="8" id="a5g-8T-977"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hzo-Kt-FX5" secondAttribute="bottom" constant="12" id="aFK-bY-ZqK"/>
+                                    <constraint firstAttribute="height" constant="1687" id="aIR-E2-RPt"/>
+                                    <constraint firstItem="Ica-UJ-Yvh" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="duW-Ht-AId"/>
+                                    <constraint firstAttribute="trailing" secondItem="ig3-rg-V1U" secondAttribute="trailing" constant="8" id="evZ-gD-sxt"/>
+                                    <constraint firstItem="ig3-rg-V1U" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="fg7-xI-JVC"/>
+                                    <constraint firstItem="cVN-rM-kwW" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="m2x-eB-TYn"/>
+                                    <constraint firstItem="4cM-PB-YBi" firstAttribute="top" secondItem="ig3-rg-V1U" secondAttribute="bottom" constant="10" id="m3r-wd-Eee"/>
+                                    <constraint firstAttribute="trailing" secondItem="vJu-6h-8en" secondAttribute="trailing" constant="8" id="mkL-N7-M7J"/>
+                                    <constraint firstItem="QEz-SY-TZ6" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="nuk-Ai-msM"/>
+                                    <constraint firstItem="ig3-rg-V1U" firstAttribute="top" secondItem="Ica-UJ-Yvh" secondAttribute="bottom" constant="10" id="pfP-cN-gZp"/>
+                                    <constraint firstItem="Hzo-Kt-FX5" firstAttribute="top" secondItem="QEz-SY-TZ6" secondAttribute="bottom" constant="10" id="qhN-6J-c11"/>
+                                    <constraint firstItem="vJu-6h-8en" firstAttribute="top" secondItem="xFX-gW-Src" secondAttribute="top" constant="10" id="vHc-YI-O4U"/>
+                                    <constraint firstItem="4cM-PB-YBi" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="xAC-Xu-QFh"/>
+                                    <constraint firstItem="vJu-6h-8en" firstAttribute="leading" secondItem="xFX-gW-Src" secondAttribute="leading" constant="8" id="ycy-2x-b0f"/>
+                                    <constraint firstItem="Ica-UJ-Yvh" firstAttribute="top" secondItem="vJu-6h-8en" secondAttribute="bottom" constant="10" id="zNU-Zb-iJm"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xFX-gW-Src" firstAttribute="leading" secondItem="54a-Xf-d4y" secondAttribute="leading" id="Gx3-2Z-bZC"/>
+                            <constraint firstItem="xFX-gW-Src" firstAttribute="top" secondItem="54a-Xf-d4y" secondAttribute="top" id="Y8v-gy-iM6"/>
+                            <constraint firstItem="54a-Xf-d4y" firstAttribute="bottom" secondItem="xFX-gW-Src" secondAttribute="bottom" id="nAt-Zf-gIa"/>
+                            <constraint firstItem="xFX-gW-Src" firstAttribute="trailing" secondItem="54a-Xf-d4y" secondAttribute="trailing" id="wHl-Eq-u0L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="54a-Xf-d4y"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Manual" id="hzO-4c-MoE"/>
+                    <size key="freeformSize" width="375" height="1800"/>
+                    <connections>
+                        <outlet property="Texto1" destination="Ica-UJ-Yvh" id="lxx-0o-DWo"/>
+                        <outlet property="Texto2" destination="4cM-PB-YBi" id="Jyd-A0-9Up"/>
+                        <outlet property="Texto3" destination="cVN-rM-kwW" id="gcO-PU-hdf"/>
+                        <outlet property="Texto4" destination="Hzo-Kt-FX5" id="1DS-aD-Ssr"/>
+                        <outlet property="Titulo1" destination="vJu-6h-8en" id="z2G-AZ-9mX"/>
+                        <outlet property="Titulo2" destination="ig3-rg-V1U" id="gkQ-Qc-vWA"/>
+                        <outlet property="Titulo3" destination="psC-LD-GSq" id="llr-87-nIv"/>
+                        <outlet property="Titulo4" destination="QEz-SY-TZ6" id="1aQ-48-eyP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0cM-X5-I7B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1802" y="-946"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="buF-FE-YIp">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6yl-k6-CW3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JuL-iI-OoR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PxV-Ov-RC4" kind="relationship" relationship="viewControllers" id="s7j-RE-hPK"/>
+                        <segue destination="rWh-65-Squ" kind="relationship" relationship="viewControllers" id="CU8-hp-Bdj"/>
+                        <segue destination="oGS-Ta-iTK" kind="relationship" relationship="viewControllers" id="FeS-Ef-qL9"/>
+                        <segue destination="scb-Jd-dgz" kind="relationship" relationship="viewControllers" id="p8N-ND-z1V"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6T-qQ-9rl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="54"/>
+        </scene>
+        <!--Jogo-->
+        <scene sceneID="699-fx-9SL">
+            <objects>
+                <viewController id="PxV-Ov-RC4" customClass="JogoViewController" customModule="Batalhas_Medievais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IOq-3j-JfH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sUI-z5-trS">
+                                <rect key="frame" x="16" y="100" width="156" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6bG-An-uFf">
+                                <rect key="frame" x="203" y="100" width="156" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebu-4J-21O">
+                                <rect key="frame" x="16" y="71" width="156" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfq-5B-c8P">
+                                <rect key="frame" x="203" y="71" width="156" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1Q-Y0-mDj">
+                                <rect key="frame" x="106" y="236" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.33802637457847595" green="0.64806663990020752" blue="0.064264506101608276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7t-M9-fRp">
+                                <rect key="frame" x="299" y="236" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.33670694656839117" green="0.64806663990020752" blue="0.070642284131417946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8U-Pt-Gy4">
+                                <rect key="frame" x="230" y="236" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rX-Me-3l1">
+                                <rect key="frame" x="40" y="236" width="25" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wKZ-ZH-1bd">
+                                <rect key="frame" x="0.0" y="254" width="375" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdQ-bX-J95">
+                                <rect key="frame" x="153" y="554" width="69" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="7cK-KL-1at"/>
+                                    <constraint firstAttribute="height" constant="54" id="RzM-5P-fqH"/>
+                                </constraints>
+                                <state key="normal" title="Button 69x54" image="o2"/>
+                                <connections>
+                                    <action selector="OpcaoO:" destination="PxV-Ov-RC4" eventType="touchUpInside" id="kZn-US-08j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDz-sl-n3e">
+                                <rect key="frame" x="296" y="554" width="69" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="71s-NI-lKf"/>
+                                    <constraint firstAttribute="width" constant="69" id="mzm-XH-nsi"/>
+                                </constraints>
+                                <state key="normal" title="Button 69x54" image="Z"/>
+                                <connections>
+                                    <action selector="OpcaoZ:" destination="PxV-Ov-RC4" eventType="touchUpInside" id="hXL-6F-EPQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-eb-FRe">
+                                <rect key="frame" x="10" y="550" width="59" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="9qz-6I-yq6"/>
+                                    <constraint firstAttribute="width" constant="59" id="ZW6-Mz-1f4"/>
+                                </constraints>
+                                <state key="normal" title="Button 69x54" image="X"/>
+                                <connections>
+                                    <action selector="OpcaoX:" destination="PxV-Ov-RC4" eventType="touchUpInside" id="KbT-GI-rBC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxo-yO-niV">
+                                <rect key="frame" x="127" y="358" width="121" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Iniciar"/>
+                                <connections>
+                                    <action selector="Up:" destination="PxV-Ov-RC4" eventType="touchUpInside" id="RJk-4C-pE7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gy8-nX-Ldg">
+                                <rect key="frame" x="19" y="26" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sair"/>
+                                <connections>
+                                    <action selector="sair:" destination="PxV-Ov-RC4" eventType="touchUpInside" id="jYn-dW-57s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G2P-Ah-FLu" firstAttribute="bottom" secondItem="kDz-sl-n3e" secondAttribute="bottom" constant="10" id="0fb-Qx-Am9"/>
+                            <constraint firstItem="Tui-eb-FRe" firstAttribute="leading" secondItem="G2P-Ah-FLu" secondAttribute="leading" constant="10" id="LAv-dx-C00"/>
+                            <constraint firstItem="G2P-Ah-FLu" firstAttribute="bottom" secondItem="Tui-eb-FRe" secondAttribute="bottom" constant="10" id="PEU-MO-AyU"/>
+                            <constraint firstItem="G2P-Ah-FLu" firstAttribute="bottom" secondItem="YdQ-bX-J95" secondAttribute="bottom" constant="10" id="RTF-lX-k24"/>
+                            <constraint firstItem="G2P-Ah-FLu" firstAttribute="trailing" secondItem="kDz-sl-n3e" secondAttribute="trailing" constant="10" id="dVS-zv-Krw"/>
+                            <constraint firstItem="YdQ-bX-J95" firstAttribute="centerX" secondItem="IOq-3j-JfH" secondAttribute="centerX" id="kow-RE-Fl0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G2P-Ah-FLu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Jogo" id="vt2-eh-IXi"/>
+                    <connections>
+                        <outlet property="HP1" destination="1rX-Me-3l1" id="Ya7-uZ-HXy"/>
+                        <outlet property="HP2" destination="l8U-Pt-Gy4" id="Ilk-lD-VFG"/>
+                        <outlet property="HPJ1" destination="x1Q-Y0-mDj" id="gdR-0W-f1l"/>
+                        <outlet property="HPJ2" destination="a7t-M9-fRp" id="tmq-sj-GFf"/>
+                        <outlet property="ImagemJ1" destination="sUI-z5-trS" id="KZ4-N7-J5n"/>
+                        <outlet property="ImagemJ2" destination="6bG-An-uFf" id="WRq-RD-KxI"/>
+                        <outlet property="Player1" destination="ebu-4J-21O" id="fB9-ba-x7H"/>
+                        <outlet property="Player2" destination="Hfq-5B-c8P" id="1Hh-v2-Slc"/>
+                        <outlet property="Start" destination="Bxo-yO-niV" id="BLh-pm-y2M"/>
+                        <outlet property="TextoJogo" destination="wKZ-ZH-1bd" id="R6Y-xp-6IT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9X-eg-qOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="j1w-y0-NSf">
+                    <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </objects>
+            <point key="canvasLocation" x="2656.8000000000002" y="56.221889055472268"/>
+        </scene>
+        <!--Ranks-->
+        <scene sceneID="oxj-lb-eF0">
+            <objects>
+                <viewController id="rWh-65-Squ" customClass="RanksViewController" customModule="Batalhas_Medievais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CUS-kO-bB1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jogador" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7P3-CV-edq">
+                                <rect key="frame" x="145" y="79" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vezes Vencidas" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM4-2d-WiB">
+                                <rect key="frame" x="255" y="79" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colocação" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuQ-P5-CSs">
+                                <rect key="frame" x="0.0" y="79" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6zU-20-SVE">
+                                <rect key="frame" x="0.0" y="108" width="375" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hte-dh-AcM" customClass="TableViewCell" customModule="Batalhas_Medievais" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hte-dh-AcM" id="ATa-cY-zf5" customClass="c">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="col" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyj-rH-YXZ">
+                                                    <rect key="frame" x="15" y="11" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="jog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3d-6v-3F1">
+                                                    <rect key="frame" x="138" y="12" width="70" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="vezes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lc-Pb-oau">
+                                                    <rect key="frame" x="271" y="11" width="74" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="colocacao" destination="Xyj-rH-YXZ" id="lZR-kI-aqN"/>
+                                            <outlet property="jogador" destination="M3d-6v-3F1" id="Vt9-e8-KHh"/>
+                                            <outlet property="vezesVencidas" destination="5lc-Pb-oau" id="d2T-qR-BgW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HF5-be-M7A"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ranks" id="nMX-4D-nnf"/>
+                    <connections>
+                        <outlet property="colocacao" destination="RuQ-P5-CSs" id="Tdn-Jq-xvl"/>
+                        <outlet property="jogador" destination="7P3-CV-edq" id="vLk-Zt-YW3"/>
+                        <outlet property="ranksTableView" destination="6zU-20-SVE" id="kga-HF-0rM"/>
+                        <outlet property="vezesVencidas" destination="PM4-2d-WiB" id="Jlu-qE-8La"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n25-W1-0hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="836.13193403298362"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Escolher-o-caminho" width="250" height="122"/>
+        <image name="Top-10-Magic-Books-of-All-Time" width="1920" height="1080"/>
+        <image name="X" width="568" height="465"/>
+        <image name="Z" width="499" height="499"/>
+        <image name="o2" width="600" height="600"/>
+    </resources>
+</document>

@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100C82620D53BCE00408EC9 /* ManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C82520D53BCE00408EC9 /* ManualViewController.swift */; };
+		A100C82C20D55C5D00408EC9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C82B20D55C5D00408EC9 /* TableViewCell.swift */; };
+		A103A7E320B4CE2B00A5CBE4 /* Invocador.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103A7E220B4CE2B00A5CBE4 /* Invocador.swift */; };
+		A103A7E520B4D25D00A5CBE4 /* Padre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103A7E420B4D25D00A5CBE4 /* Padre.swift */; };
+		A103A7E720B4F46F00A5CBE4 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103A7E620B4F46F00A5CBE4 /* Engine.swift */; };
+		A12AC5DF20B47D41004AD987 /* Cacador.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AC5DE20B47D41004AD987 /* Cacador.swift */; };
+		A13B1A2A20B0604000090B3F /* JogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B1A2920B0604000090B3F /* JogoViewController.swift */; };
+		A13B1A2C20B060BA00090B3F /* RanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B1A2B20B060BA00090B3F /* RanksViewController.swift */; };
+		A13B1A2E20B0611100090B3F /* TemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B1A2D20B0611100090B3F /* TemaViewController.swift */; };
+		A164723A20B3266E0071F8AE /* Arqueiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164723920B3266E0071F8AE /* Arqueiro.swift */; };
+		A1727AF620B0A31D00AD8936 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1727AF520B0A31D00AD8936 /* Base.swift */; };
+		A19AC74F20B4C67A00C4910C /* Mago.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AC74E20B4C67A00C4910C /* Mago.swift */; };
+		A19AD79A20A71ABC00C779CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AD79920A71ABC00C779CC /* AppDelegate.swift */; };
+		A19AD79C20A71ABC00C779CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AD79B20A71ABC00C779CC /* ViewController.swift */; };
+		A19AD79F20A71ABC00C779CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19AD79D20A71ABC00C779CC /* Main.storyboard */; };
+		A19AD7A220A71ABC00C779CC /* BatalhasMedievais.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A19AD7A020A71ABC00C779CC /* BatalhasMedievais.xcdatamodeld */; };
+		A19AD7A420A71ABC00C779CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19AD7A320A71ABC00C779CC /* Assets.xcassets */; };
+		A19AD7A720A71ABC00C779CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19AD7A520A71ABC00C779CC /* LaunchScreen.storyboard */; };
+		A19AD7B220A71ABC00C779CC /* BatalhasMedievaisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AD7B120A71ABC00C779CC /* BatalhasMedievaisUITests.swift */; };
+		A1E2FC1120D5C860001F3E68 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E2FC1020D5C860001F3E68 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A19AD7AE20A71ABC00C779CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19AD78E20A71ABC00C779CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19AD79520A71ABC00C779CC;
+			remoteInfo = BatalhasMedievais;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A100C82520D53BCE00408EC9 /* ManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualViewController.swift; sourceTree = "<group>"; };
+		A100C82B20D55C5D00408EC9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A103A7E220B4CE2B00A5CBE4 /* Invocador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invocador.swift; sourceTree = "<group>"; };
+		A103A7E420B4D25D00A5CBE4 /* Padre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padre.swift; sourceTree = "<group>"; };
+		A103A7E620B4F46F00A5CBE4 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		A12AC5DE20B47D41004AD987 /* Cacador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cacador.swift; sourceTree = "<group>"; };
+		A13B1A2920B0604000090B3F /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
+		A13B1A2B20B060BA00090B3F /* RanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanksViewController.swift; sourceTree = "<group>"; };
+		A13B1A2D20B0611100090B3F /* TemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaViewController.swift; sourceTree = "<group>"; };
+		A164723920B3266E0071F8AE /* Arqueiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arqueiro.swift; sourceTree = "<group>"; };
+		A1727AF520B0A31D00AD8936 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		A19AC74E20B4C67A00C4910C /* Mago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mago.swift; sourceTree = "<group>"; };
+		A19AD79620A71ABC00C779CC /* Batalhas Medievais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Batalhas Medievais.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19AD79920A71ABC00C779CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A19AD79B20A71ABC00C779CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A19AD79E20A71ABC00C779CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A19AD7A120A71ABC00C779CC /* BatalhasMedievais.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BatalhasMedievais.xcdatamodel; sourceTree = "<group>"; };
+		A19AD7A320A71ABC00C779CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19AD7A620A71ABC00C779CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A19AD7A820A71ABC00C779CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19AD7AD20A71ABC00C779CC /* Batalhas MedievaisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Batalhas MedievaisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19AD7B120A71ABC00C779CC /* BatalhasMedievaisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatalhasMedievaisUITests.swift; sourceTree = "<group>"; };
+		A19AD7B320A71ABC00C779CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E2FC1020D5C860001F3E68 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19AD79320A71ABC00C779CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19AD7AA20A71ABC00C779CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1727AF420B0A1CC00AD8936 /* ClassesDoJogo */ = {
+			isa = PBXGroup;
+			children = (
+				A1727AF520B0A31D00AD8936 /* Base.swift */,
+				A164723920B3266E0071F8AE /* Arqueiro.swift */,
+				A12AC5DE20B47D41004AD987 /* Cacador.swift */,
+				A19AC74E20B4C67A00C4910C /* Mago.swift */,
+				A103A7E220B4CE2B00A5CBE4 /* Invocador.swift */,
+				A103A7E420B4D25D00A5CBE4 /* Padre.swift */,
+				A103A7E620B4F46F00A5CBE4 /* Engine.swift */,
+			);
+			path = ClassesDoJogo;
+			sourceTree = "<group>";
+		};
+		A19AD78D20A71ABC00C779CC = {
+			isa = PBXGroup;
+			children = (
+				A19AD79820A71ABC00C779CC /* BatalhasMedievais */,
+				A19AD7B020A71ABC00C779CC /* BatalhasMedievaisUITests */,
+				A19AD79720A71ABC00C779CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19AD79720A71ABC00C779CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19AD79620A71ABC00C779CC /* Batalhas Medievais.app */,
+				A19AD7AD20A71ABC00C779CC /* Batalhas MedievaisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19AD79820A71ABC00C779CC /* BatalhasMedievais */ = {
+			isa = PBXGroup;
+			children = (
+				A1727AF420B0A1CC00AD8936 /* ClassesDoJogo */,
+				A19AD79920A71ABC00C779CC /* AppDelegate.swift */,
+				A19AD79B20A71ABC00C779CC /* ViewController.swift */,
+				A19AD79D20A71ABC00C779CC /* Main.storyboard */,
+				A100C82B20D55C5D00408EC9 /* TableViewCell.swift */,
+				A100C82520D53BCE00408EC9 /* ManualViewController.swift */,
+				A13B1A2D20B0611100090B3F /* TemaViewController.swift */,
+				A13B1A2B20B060BA00090B3F /* RanksViewController.swift */,
+				A13B1A2920B0604000090B3F /* JogoViewController.swift */,
+				A1E2FC1020D5C860001F3E68 /* TabBarViewController.swift */,
+				A19AD7A320A71ABC00C779CC /* Assets.xcassets */,
+				A19AD7A520A71ABC00C779CC /* LaunchScreen.storyboard */,
+				A19AD7A820A71ABC00C779CC /* Info.plist */,
+				A19AD7A020A71ABC00C779CC /* BatalhasMedievais.xcdatamodeld */,
+			);
+			path = BatalhasMedievais;
+			sourceTree = "<group>";
+		};
+		A19AD7B020A71ABC00C779CC /* BatalhasMedievaisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A19AD7B120A71ABC00C779CC /* BatalhasMedievaisUITests.swift */,
+				A19AD7B320A71ABC00C779CC /* Info.plist */,
+			);
+			path = BatalhasMedievaisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19AD79520A71ABC00C779CC /* Batalhas Medievais */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19AD7B620A71ABC00C779CC /* Build configuration list for PBXNativeTarget "Batalhas Medievais" */;
+			buildPhases = (
+				A19AD79220A71ABC00C779CC /* Sources */,
+				A19AD79320A71ABC00C779CC /* Frameworks */,
+				A19AD79420A71ABC00C779CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Batalhas Medievais";
+			productName = BatalhasMedievais;
+			productReference = A19AD79620A71ABC00C779CC /* Batalhas Medievais.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A19AD7AC20A71ABC00C779CC /* Batalhas MedievaisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19AD7B920A71ABC00C779CC /* Build configuration list for PBXNativeTarget "Batalhas MedievaisUITests" */;
+			buildPhases = (
+				A19AD7A920A71ABC00C779CC /* Sources */,
+				A19AD7AA20A71ABC00C779CC /* Frameworks */,
+				A19AD7AB20A71ABC00C779CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19AD7AF20A71ABC00C779CC /* PBXTargetDependency */,
+			);
+			name = "Batalhas MedievaisUITests";
+			productName = BatalhasMedievaisUITests;
+			productReference = A19AD7AD20A71ABC00C779CC /* Batalhas MedievaisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19AD78E20A71ABC00C779CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Spike Lee";
+				TargetAttributes = {
+					A19AD79520A71ABC00C779CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A19AD7AC20A71ABC00C779CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A19AD79520A71ABC00C779CC;
+					};
+				};
+			};
+			buildConfigurationList = A19AD79120A71ABC00C779CC /* Build configuration list for PBXProject "Batalhas Medievais" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A19AD78D20A71ABC00C779CC;
+			productRefGroup = A19AD79720A71ABC00C779CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19AD79520A71ABC00C779CC /* Batalhas Medievais */,
+				A19AD7AC20A71ABC00C779CC /* Batalhas MedievaisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19AD79420A71ABC00C779CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19AD7A720A71ABC00C779CC /* LaunchScreen.storyboard in Resources */,
+				A19AD7A420A71ABC00C779CC /* Assets.xcassets in Resources */,
+				A19AD79F20A71ABC00C779CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19AD7AB20A71ABC00C779CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19AD79220A71ABC00C779CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E2FC1120D5C860001F3E68 /* TabBarViewController.swift in Sources */,
+				A100C82C20D55C5D00408EC9 /* TableViewCell.swift in Sources */,
+				A19AD7A220A71ABC00C779CC /* BatalhasMedievais.xcdatamodeld in Sources */,
+				A103A7E720B4F46F00A5CBE4 /* Engine.swift in Sources */,
+				A164723A20B3266E0071F8AE /* Arqueiro.swift in Sources */,
+				A13B1A2E20B0611100090B3F /* TemaViewController.swift in Sources */,
+				A13B1A2C20B060BA00090B3F /* RanksViewController.swift in Sources */,
+				A12AC5DF20B47D41004AD987 /* Cacador.swift in Sources */,
+				A103A7E320B4CE2B00A5CBE4 /* Invocador.swift in Sources */,
+				A103A7E520B4D25D00A5CBE4 /* Padre.swift in Sources */,
+				A19AC74F20B4C67A00C4910C /* Mago.swift in Sources */,
+				A13B1A2A20B0604000090B3F /* JogoViewController.swift in Sources */,
+				A19AD79C20A71ABC00C779CC /* ViewController.swift in Sources */,
+				A1727AF620B0A31D00AD8936 /* Base.swift in Sources */,
+				A100C82620D53BCE00408EC9 /* ManualViewController.swift in Sources */,
+				A19AD79A20A71ABC00C779CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19AD7A920A71ABC00C779CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19AD7B220A71ABC00C779CC /* BatalhasMedievaisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A19AD7AF20A71ABC00C779CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19AD79520A71ABC00C779CC /* Batalhas Medievais */;
+			targetProxy = A19AD7AE20A71ABC00C779CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A19AD79D20A71ABC00C779CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19AD79E20A71ABC00C779CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A19AD7A520A71ABC00C779CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19AD7A620A71ABC00C779CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19AD7B420A71ABC00C779CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A19AD7B520A71ABC00C779CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A19AD7B720A71ABC00C779CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J4WD94T83;
+				INFOPLIST_FILE = BatalhasMedievais/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpikeLee.Aula0704.BatalhasMedievaisoio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A19AD7B820A71ABC00C779CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J4WD94T83;
+				INFOPLIST_FILE = BatalhasMedievais/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpikeLee.Aula0704.BatalhasMedievaisoio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A19AD7BA20A71ABC00C779CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J4WD94T83;
+				INFOPLIST_FILE = BatalhasMedievaisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpikeLee.Aula0704.BatalhasMedievaisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatalhasMedievais;
+			};
+			name = Debug;
+		};
+		A19AD7BB20A71ABC00C779CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J4WD94T83;
+				INFOPLIST_FILE = BatalhasMedievaisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpikeLee.Aula0704.BatalhasMedievaisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatalhasMedievais;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19AD79120A71ABC00C779CC /* Build configuration list for PBXProject "Batalhas Medievais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19AD7B420A71ABC00C779CC /* Debug */,
+				A19AD7B520A71ABC00C779CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19AD7B620A71ABC00C779CC /* Build configuration list for PBXNativeTarget "Batalhas Medievais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19AD7B720A71ABC00C779CC /* Debug */,
+				A19AD7B820A71ABC00C779CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19AD7B920A71ABC00C779CC /* Build configuration list for PBXNativeTarget "Batalhas MedievaisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19AD7BA20A71ABC00C779CC /* Debug */,
+				A19AD7BB20A71ABC00C779CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A19AD7A020A71ABC00C779CC /* BatalhasMedievais.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A19AD7A120A71ABC00C779CC /* BatalhasMedievais.xcdatamodel */,
+			);
+			currentVersion = A19AD7A120A71ABC00C779CC /* BatalhasMedievais.xcdatamodel */;
+			path = BatalhasMedievais.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A19AD78E20A71ABC00C779CC /* Project object */;
+}
