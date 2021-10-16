@@ -1,5 +1,5 @@
 # ProjetoBatalhasMedievais
-Jogo feito para iOS
+Jogo feito para iOS, onde o jogador escolher classes de personagens, e luta com os poderes disponíveis para cada categoria. O jogo foi planejado para ser jogado contra a máquina, ou seja, o aparelho que roda o sistema iOS.
 
 Instruções: 
 
